@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link type="text/css" rel="stylesheet" href="node_modules/materialize-css/dist/css/materialize.css" media="screen,projection"/>
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+<div class="container">
+  <a id="addNewUserButton" class="waves-effect waves-light btn blue lighten-1">+</a>
+  <table id="usersTable" class="highlight">
+    <thead>
+    <tr id="tableTeader">
+      <th>First name</th>
+      <th>Last name</th>
+      <th>E-mail</th>
+      <th>Phone</th>
+      <th>Account control</th>
+    </tr>
+    </thead>
+  </table>
+</div>
+
+<div id="userModal" class="modal">
+  <div class="modal-content">
+    <h4>User info</h4>
+    <p>Plz enter your data below</p>
+    <div class="row">
+      <form class="col s12" id="usersForm">
+        <div class="row">
+          <div class="input-field col s6">
+            <input id="firstName" type="text" class="validate">
+            <label for="firstName">First Name</label>
+          </div>
+          <div class="input-field col s6">
+            <input id="lastName" type="text" class="validate">
+            <label for="lastName">Last Name</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="phone" type="tel" class="validate">
+            <label for="phone">Phone</label>
+          </div>
+        </div>
+        <div class="row">
+          <div class="input-field col s12">
+            <input id="email" type="email" class="validate" data-validation="email">
+            <label for="email">Email</label>
+          </div>
+        </div>
+      </form>
+    </div>
+  </div>
+  <div class="modal-footer">
+    <a href="#!" id="cancelBtn" class="modal-action modal-close waves-effect waves btn-flat">Cancel</a>
+    <a href="#" id="submitUserBtn" class="modal-action waves-effect waves btn-flat">Submit</a>
+  </div>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="node_modules/materialize-css/dist/js/materialize.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-form-validator/2.3.26/jquery.form-validator.min.js"></script>
+<script type="text/javascript" src="js/script.js"></script>
+<script type="text/javascript" src="js/jquery.mask.js"></script>
+</body>
+
+</html>

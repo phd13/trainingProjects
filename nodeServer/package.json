@@ -1,0 +1,22 @@
+{
+  "name": "node_server",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon server.js"
+  },
+  "author": "phd_13",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.0",
+    "cors": "^2.8.4",
+    "express": "^4.15.4",
+    "http-server": "^0.10.0",
+    "mongodb": "^2.2.31"
+  },
+  "devDependencies": {
+    "nodemon": "^1.12.0"
+  }
+}

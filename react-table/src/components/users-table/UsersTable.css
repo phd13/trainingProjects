@@ -1,0 +1,10 @@
+.userAction {
+    margin-right: 10px;
+    display: inline-block;
+    cursor: pointer;
+}
+
+.search-field {
+    width: 50%;
+    margin: 0 auto;
+}

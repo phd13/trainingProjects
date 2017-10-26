@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <title>Canvas Paint</title>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <style type="text/css">
+    body {
+      background-color: #bebebe;
+    }
+    
+    #canvas {
+      border: #000000 1px solid;
+      background-color: #4db9f4;
+    }
+  </style>
+</head>
+
+<body>
+  <p>
+    <label>Что нарисовать:
+      <select id="selector" style="outline: 0">
+      <option value="square">Квадрат</option>
+      <option value="line">Линия</option>
+      <option value="circle">Круг</option>
+      </select>
+    </label>
+    <label>Цвет:
+      <select id="colorSelector" style="outline: 0">
+      <option value="#ffffff">Белый</option>
+      <option value="#000000">Чёрный</option>
+      <option value="#F00">Красный</option>
+      <option value="#ffff00">Желтый</option>
+      <option value="#0F0">Зелёный</option>
+      <option value="#00F">Синий</option>
+      <option value="#ee82ee">Фиолетовый</option>
+      <option value="#ffa500">Оранжевый</option>
+      <option value="#a52a2a">Коричневый</option>
+      <option value="#40e0d0">Бирюзовый</option>
+      <option value="#bebebe">Серый</option>
+      <option value="#ffc0cb">Розовый</option>
+      </select>
+    </label>
+  </p>
+  <canvas id="canvas" width="800" height="500"></canvas>
+  <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>

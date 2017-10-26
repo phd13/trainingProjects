@@ -1,0 +1,74 @@
+#digits {
+    padding: 10px;
+    background-color: #bebebe;
+    width: 135px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#operations {
+    padding: 10px;
+    background-color: #bebebe;
+    width: 135px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#eqlbtn {
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: #3DC12F;
+}
+
+#cbtn {
+    padding: 10px;
+    text-align: center;
+    margin: 0 auto;
+    background-color: red;
+}
+
+.btn {
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background-color: #4db9f5;
+}
+
+.opBtn {
+    flex-basis: 45%;
+    margin: 0 auto;
+    text-align: center;
+    display: block;
+    width: 40px;
+    height: 20px;
+    background-color: #4db9f5;
+}
+
+.control {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    width: 145px;
+    padding: 5px;
+}
+
+.control button {
+    flex-basis: 45%;
+}
+
+#resultSpan {
+    overflow-y: auto;
+    width: 53px;
+    background-color: #ffffff;
+    border: 1px solid #000000;
+    display: inline-block;
+    text-align: right;
+    padding: 10px 50px;
+}
